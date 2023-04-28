@@ -33,8 +33,7 @@ Z ESP32 se stane bluetooth proxy (brána) přes WIFI. Lze připojovat více BLE 
 13. pro uložení nastavení stiskněte tlačítko "Save current settinfs in flash"
 14. nakopírujte do ESPHome config níže a upravte MAC adresu
 15. MAC adresa začíná vždy A4:C1:38 a druhou polovinu doplňíte z názvu ATC, který jste si poznamenali 
-Příklad - ATC_93:25:D9 = A4:C1:38 + 93:2B:D9 = A4:C1:38:93:2B:D9
-
+16. Příklad - ATC_93:25:D9 = A4:C1:38 + 93:2B:D9 = A4:C1:38:93:2B:D9
 
 ## ESPHome config:
 bluetooth_proxy:
