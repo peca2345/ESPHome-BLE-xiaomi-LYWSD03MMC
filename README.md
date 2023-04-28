@@ -25,11 +25,6 @@ Z ESP32 se stane bluetooth proxy (brána) přes WIFI. Lze připojovat více BLE 
 - ESP32: [SHOP](https://www.aliexpress.com/item/1005005246146177.html?spm=a2g0o.productlist.main.1.18cd7404DIFcOK&algo_pvid=daedd95e-ba9a-4aed-a695-54dff0fa1af4&algo_exp_id=daedd95e-ba9a-4aed-a695-54dff0fa1af4-0&pdp_npi=3%40dis%21CZK%21118.58%2181.74%21%21%21%21%21%40211bf4c516827119032341282d07ad%2112000032346510820%21sea%21CZ%21166466096&curPageLogUid=NmCOeBunLWwI)
 
 ## Postup:
-<p align="left">
-  <img src="https://github.com/peca2345/ESPHome-BLE-xiaomi-LYWSD03MMC/blob/main/IMG/webflasher.jpg?raw=true" alt="IMG" width="600">
-</p>
-
-
 1. stáhněte si do telefonu nejnovější ATC [Firmware](https://github.com/atc1441/ATC_MiThermometer/releases)
 2. otevřete v chrome na telefonu tento [Webflasher](https://atc1441.github.io/TelinkFlasher.html)
 3. klikněte na "Connect"
@@ -46,6 +41,10 @@ Z ESP32 se stane bluetooth proxy (brána) přes WIFI. Lze připojovat více BLE 
 14. nakopírujte do ESPHome config níže a upravte MAC adresu
 15. MAC adresa začíná vždy A4:C1:38 a druhou polovinu doplňíte z názvu ATC, který jste si poznamenali 
 16. Příklad - ATC_93:25:D9 = A4:C1:38 + 93:2B:D9 = A4:C1:38:93:2B:D9
+
+<p align="left">
+  <img src="https://github.com/peca2345/ESPHome-BLE-xiaomi-LYWSD03MMC/blob/main/IMG/webflasher.jpg?raw=true" alt="IMG" width="800">
+</p>
 
 ## ESPHome config:
 ```
