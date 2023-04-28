@@ -26,7 +26,7 @@ Z ESP32 se stane bluetooth proxy (brána) přes WIFI. Lze připojovat více BLE 
 
 ## Postup:
 <p align="left">
-  <img src="https://github.com/peca2345/ESPHome-BLE-xiaomi-LYWSD03MMC/blob/main/IMG/webflasher.jpg?raw=true" alt="IMG" width="200" height="200">
+  <img src="https://github.com/peca2345/ESPHome-BLE-xiaomi-LYWSD03MMC/blob/main/IMG/webflasher.jpg?raw=true" alt="IMG" width="600">
 </p>
 
 
