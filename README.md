@@ -41,7 +41,8 @@ Z ESP32 se stane bluetooth proxy (brána) přes WIFI. Lze připojovat více BLE 
 14. nakopírujte do ESPHome config níže a upravte MAC adresu
 15. MAC adresa začíná vždy A4:C1:38 a druhou polovinu doplňíte z názvu ATC, který jste si poznamenali 
 16. Příklad - ATC_93:25:D9 = A4:C1:38 + 93:2B:D9 = A4:C1:38:93:2B:D9
-
+17. doporučuji si poznačit MAC adresu na zadní stranu pod kryt
+18. 
 <p align="left">
   <img src="https://github.com/peca2345/ESPHome-BLE-xiaomi-LYWSD03MMC/blob/main/IMG/webflasher.jpg?raw=true" alt="IMG" width="800">
 </p>
