@@ -56,3 +56,8 @@ sensor:
       name: "BLE baterie napětí"
     signal_strength:
       name: "BLE Signal"
+
+Zdroje:
+[ESPHome](https://esphome.io/components/sensor/xiaomi_ble.html)
+[Firmware](https://github.com/atc1441/ATC_MiThermometer/releases)
+[ATC_MiThermometer](https://github.com/atc1441/ATC_MiThermometer)
