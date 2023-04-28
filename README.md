@@ -4,7 +4,7 @@
 Postup pro preflashování BLE teploměru Xiaomi LYWSD03MMC na opensource firmware ATC, který je kompatibilní s ESPHome.
 Zařízení potom komunikuje přímo s ESP32 bez prostředníka a lze v programu dále pracovat s entitami teploměru.
 Z ESP32 se stane bluetooth proxy (brána) přes WIFI. Lze připojovat více BLE zařízení.
-![IMG](https://github.com/peca2345/ESPHome-BLE-xiaomi-LYWSD03MMC/blob/main/IMG/xiaomi_ble_temperature.jpg?raw=true){ width=100px height=100px }
+<img src="https://github.com/peca2345/ESPHome-BLE-xiaomi-LYWSD03MMC/blob/main/IMG/xiaomi_ble_temperature.jpg?raw=true" alt="IMG" width="400" height="300">
 
 
 ![IMG](https://github.com/peca2345/ESPHome-BLE-xiaomi-LYWSD03MMC/blob/main/IMG/xiaomi_ble_temperature.jpg?raw=true)
