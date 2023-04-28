@@ -5,6 +5,8 @@ Postup pro preflashování BLE teploměru Xiaomi LYWSD03MMC na opensource firmwa
 Zařízení potom komunikuje přímo s ESP32 bez prostředníka a lze v programu dále pracovat s entitami teploměru.
 Z ESP32 se stane bluetooth proxy (brána) přes WIFI. Lze připojovat více BLE zařízení.
 
+![IMG](https://github.com/peca2345/ESPHome-BLE-xiaomi-LYWSD03MMC/blob/main/IMG/xiaomi_ble_temperature.jpg?raw=true)
+
 ## Info:
 - dosah cca 20m
 - možnost nastavení intervalu odesílání dat 
@@ -12,6 +14,8 @@ Z ESP32 se stane bluetooth proxy (brána) přes WIFI. Lze připojovat více BLE 
 - možnost vypnutí smajlu na LCD
 - signál se mezi zařízeními nepřeposíla jako u zigbee.
 - na jednu instanci Home Assistanta můžete oproti zigbee použít více BLE proxy bran pro větší pokrytí 
+
+
 
 ## Komponenty:
 - Xiaomi BLE senzor: [SHOP](https://www.aliexpress.com/item/1005004038986541.html?spm=a2g0o.productlist.main.19.6c0828ab2pLzZe&algo_pvid=b4e00c04-2583-4e5c-83e7-fa112be91db1&algo_exp_id=b4e00c04-2583-4e5c-83e7-fa112be91db1-9&pdp_npi=3%40dis%21CZK%21199.45%21137.54%21%21%21%21%21%40211bf04a16827115197988812d07a0%2112000027838365642%21sea%21CZ%21166466096&curPageLogUid=mf5jOVf44hjo)
