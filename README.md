@@ -36,6 +36,7 @@ Z ESP32 se stane bluetooth proxy (brána) přes WIFI. Lze připojovat více BLE 
 16. Příklad - ATC_93:25:D9 = A4:C1:38 + 93:2B:D9 = A4:C1:38:93:2B:D9
 
 ## ESPHome config:
+```
 bluetooth_proxy:
   active: true
 
@@ -56,8 +57,8 @@ sensor:
       name: "BLE baterie napětí"
     signal_strength:
       name: "BLE Signal"
-
+```
 Zdroje:
-[ESPHome](https://esphome.io/components/sensor/xiaomi_ble.html)
-[Firmware](https://github.com/atc1441/ATC_MiThermometer/releases)
-[ATC_MiThermometer](https://github.com/atc1441/ATC_MiThermometer)
+ [ESPHome](https://esphome.io/components/sensor/xiaomi_ble.html)
+ [Firmware](https://github.com/atc1441/ATC_MiThermometer/releases)
+ [ATC_MiThermometer](https://github.com/atc1441/ATC_MiThermometer)
