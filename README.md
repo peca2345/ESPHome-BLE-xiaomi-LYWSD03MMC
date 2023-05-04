@@ -43,6 +43,7 @@ Z ESP32 se stane bluetooth proxy (brána) přes WIFI. Lze připojovat více BLE 
 18. MAC adresa začíná vždy A4:C1:38 a druhou polovinu doplňíte z názvu ATC, který jste si poznamenali 
 19. Příklad: ATC_93:25:D9 = A4:C1:38 + 93:2B:D9 = A4:C1:38:93:2B:D9
 20. doporučuji si poznačit MAC adresu na zadní stranu pod kryt
+21. nakonec vypnout na telefonu bluetooth aby se teploměr napojil na ESP proxy
 
 <p align="left">
   <img src="https://github.com/peca2345/ESPHome-BLE-xiaomi-LYWSD03MMC/blob/main/IMG/webflasher.jpg?raw=true" alt="IMG" width="800">
