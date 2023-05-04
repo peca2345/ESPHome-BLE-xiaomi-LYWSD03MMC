@@ -1,4 +1,4 @@
-# ESPHome BLE Xiaomi teploměr LYWSD03MMC
+# ESPHome - BLE Xiaomi teploměr LYWSD03MMC
 
 ## Popis:
 Postup pro preflashování BLE teploměru Xiaomi LYWSD03MMC na opensource firmware ATC, který je kompatibilní s ESPHome.
