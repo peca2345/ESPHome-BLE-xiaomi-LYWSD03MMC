@@ -1,8 +1,8 @@
 # ESPHome - BLE Xiaomi teploměr LYWSD03MMC
 
 ## Popis:
-Postup pro preflashování BLE teploměru Xiaomi LYWSD03MMC na opensource firmware ATC, který je kompatibilní s ESPHome.
-Zařízení potom komunikuje přímo s ESP32 bez prostředníka a lze v programu dále pracovat s entitami teploměru.
+Postup pro přeflashování BLE teploměru Xiaomi LYWSD03MMC na firmware ATC, který je kompatibilní s ESPHome.
+Zařízení potom komunikuje přímo s ESP32 bez prostředníka a lze v programu dále pracovat s entitami teploměru ale stejně tak i v HA.
 Z ESP32 se stane bluetooth proxy (brána) přes WIFI. Lze připojovat více BLE zařízení.
 
 <p align="left">
@@ -10,7 +10,7 @@ Z ESP32 se stane bluetooth proxy (brána) přes WIFI. Lze připojovat více BLE 
 </p>
 
 ## Info:
-- dosah cca 20m
+- dosah testován cca 20m přes jednu zeď
 - možnost nastavení intervalu odesílání dat 
 - vydrž baterie dle výrobce 1-2 roky při intervalu odesílání dat každých 5 minut
 - možnost vypnutí smajlu na LCD
