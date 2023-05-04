@@ -28,21 +28,21 @@ Z ESP32 se stane bluetooth proxy (brána) přes WIFI. Lze připojovat více BLE 
 ## Postup:
 1. stáhněte si do telefonu nejnovější ATC [Firmware](https://github.com/atc1441/ATC_MiThermometer/releases)
 2. otevřete v chrome na telefonu tento [Webflasher](https://atc1441.github.io/TelinkFlasher.html)
-3. klikněte na "Connect"
-4. vyberte soubor z telefonu pomocí tlačítka "procházet"
-5. stiskněte "Do Activation"
-6. dále "Start flashing"
-7. jakmile uvidíte v logu "Update done" je hotovo
-8. opět dejte "Connect" a v seznamu dostupných zařízeních se objeví ATC_XXXXXX
-9. opiště si tento název (hodnoty pod XXXXXX je konec MAC adresy - budete potřebovat)
-10. nyní můžete upravit nastavení firmwaru pomocí tlačítek na konci
-11. můžete například vypnout smajlík a nastavit interval aktualizace senzoru 
-12. nedávejte "Adversing Type: Mi Like" jinak nebude fungovat konfigurace v ESPHome
-13. pro uložení nastavení stiskněte tlačítko "Save current settinfs in flash"
-14. nakopírujte do ESPHome config níže a upravte MAC adresu
-15. MAC adresa začíná vždy A4:C1:38 a druhou polovinu doplňíte z názvu ATC, který jste si poznamenali 
-16. Příklad - ATC_93:25:D9 = A4:C1:38 + 93:2B:D9 = A4:C1:38:93:2B:D9
-17. doporučuji si poznačit MAC adresu na zadní stranu pod kryt
+3. klikněte na "Connect" a vyberte BT zařízení v seznamu (LYWSD03MMC)
+4. vyberte stažený soubor ATC_Thermometer.bin z telefonu pomocí tlačítka "procházet"
+5. stiskněte "Do Activation" a čekej než se načte "Mi Token", "Mi Bind Key a "Device known id""
+6. dále stiskni "Start flashing" (uvidíš průběh odesílání dat v procentech)
+10. jakmile uvidíte v logu "Update done" je hotovo (zařízení se automaticky odpojí)
+11. opět dejte "Connect" a v seznamu dostupných zařízeních se objeví ATC_XXXXXX
+12. opiště si tento název a připojte se (hodnota pod XXXXXX je konec MAC adresy, kterou budete později potřebovat)
+13. nyní můžete upravit nastavení firmwaru pomocí tlačítek na konci
+14. můžete například vypnout smajlík a nastavit interval aktualizace senzoru 
+15. nedávejte "Adversing Type: Mi Like" jinak nebude fungovat konfigurace v ESPHome
+16. pro uložení nastavení stiskněte tlačítko "Save current settinfs in flash"
+17. nakopírujte do ESPHome config níže a upravte MAC adresu (nahraďte XX:XX:XX)
+18. MAC adresa začíná vždy A4:C1:38 a druhou polovinu doplňíte z názvu ATC, který jste si poznamenali 
+19. Příklad: ATC_93:25:D9 = A4:C1:38 + 93:2B:D9 = A4:C1:38:93:2B:D9
+20. doporučuji si poznačit MAC adresu na zadní stranu pod kryt
 
 <p align="left">
   <img src="https://github.com/peca2345/ESPHome-BLE-xiaomi-LYWSD03MMC/blob/main/IMG/webflasher.jpg?raw=true" alt="IMG" width="800">
@@ -55,7 +55,7 @@ bluetooth_proxy:
 
 sensor:
   - platform: atc_mithermometer
-    mac_address: "A4:C1:38:93:2B:D9"
+    mac_address: "A4:C1:38:XX:XX:XX"
     temperature:
       name: "BLE teplota"
 #      filters: # pouze pokud potrebujes
