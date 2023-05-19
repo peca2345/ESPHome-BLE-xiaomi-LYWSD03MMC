@@ -27,7 +27,7 @@ Z ESP32 se stane bluetooth proxy (brána) přes WIFI. Lze připojovat více BLE 
 
 ## Postup:
 1. stáhněte si do telefonu nejnovější ATC [Firmware](https://github.com/atc1441/ATC_MiThermometer/releases)
-2. otevřete v chrome na telefonu tento [Webflasher](https://atc1441.github.io/TelinkFlasher.html)
+2. otevřete v prohlížeči CHROME na telefonu tento [Webflasher](https://atc1441.github.io/TelinkFlasher.html)
 3. klikněte na "Connect" a vyberte BT zařízení v seznamu (LYWSD03MMC)
 4. vyberte stažený soubor ATC_Thermometer.bin z telefonu pomocí tlačítka "procházet"
 5. stiskněte "Do Activation" a čekej než se načte "Mi Token", "Mi Bind Key a "Device known id"" (případně zkus opakovat)
