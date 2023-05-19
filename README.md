@@ -38,7 +38,7 @@ Z ESP32 se stane bluetooth proxy (brána) přes WIFI. Lze připojovat více BLE 
 13. nyní můžete upravit nastavení firmwaru pomocí tlačítek na konci
 14. můžete například vypnout smajlík a nastavit interval aktualizace senzoru 
 15. nedávejte "Adversing Type: Mi Like" jinak nebude fungovat konfigurace v ESPHome
-16. pro uložení nastavení stiskněte tlačítko "Save current settinfs in flash"
+16. pro uložení nastavení stiskněte tlačítko "Save current settinfs in flash" (na displeji se objeví hláška Save)
 17. nakopírujte do ESPHome config níže a upravte MAC adresu (nahraďte XX:XX:XX)
 18. MAC adresa začíná vždy A4:C1:38 a druhou polovinu doplňíte z názvu ATC, který jste si poznamenali 
 19. Příklad: ATC_93:25:D9 = A4:C1:38 + 93:2B:D9 = A4:C1:38:93:2B:D9
